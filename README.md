@@ -1,15 +1,15 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
+<img src="https://crocus-urban.org/wp-content/uploads/sites/115/2023/03/CROCUS-Logo_preview_R2.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# Chicago Data Warehouse Cookbook
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![nightly-build](https://github.com/EVS-ATMOS/chicago-data-warehouse/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/EVS-ATMOS/chicago-data-warehouse/actions/workflows/nightly-build.yaml)
+[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/EVS-ATMOS/chicago-data-warehouse/main?labpath=notebooks)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers work related to the Chicago Data Warehouse SULI Project.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This repository for collaboration with student interns at Argonne National Laboratory.
 
 ## Authors
 
@@ -17,8 +17,8 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/EVS-ATMOS/chicago-data-warehouse/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EVS-ATMOS/chicago-data-warehouse" />
 </a>
 
 ## Structure
@@ -60,20 +60,20 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/EVS-ATMOS/chicago-data-warehouse` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/EVS-ATMOS/chicago-data-warehouse.git
    ```
 
 1. Move into the `cookbook-example` directory
    ```bash
-   cd cookbook-example
+   cd chicago-data-warehouse
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate chicago-data-warehouse-dev
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
