@@ -5,6 +5,9 @@ dependencies:
   - jupyter-book
   - jupyterlab
   - jupyter_server<2
+  - xarray
+  - act-atmos
   - pip
   - pip:
       - sphinx-pythia-theme
+      - sage-data-client
