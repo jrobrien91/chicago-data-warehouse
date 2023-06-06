@@ -80,5 +80,3 @@ If you are interested in running this material locally on your computer, you wil
    cd notebooks/
    jupyter lab
    ```
-
-Hello! I'm doing changes to the README w00t!!!
