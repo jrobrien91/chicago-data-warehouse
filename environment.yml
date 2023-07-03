@@ -7,7 +7,17 @@ dependencies:
   - jupyter_server<2
   - xarray
   - act-atmos
+  - arm_pyart
+  - matplotlib
+  - cartopy
+  - dask
+  - distributed
+  - pandas<2.0
+  - fiona
+  - hvplot
+  - imageio
   - pip
   - pip:
       - sphinx-pythia-theme
       - sage-data-client
+      - nexradaws
